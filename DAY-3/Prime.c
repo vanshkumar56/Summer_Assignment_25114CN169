@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int main(){
-int n,count=0,fact;
+int n,count=0;
  printf("Enter A Number: ");
  scanf("%d",&n);
  if (n <= 1) {
@@ -11,8 +11,7 @@ int n,count=0,fact;
     }
 for (int i = 1; i < n; i++)
 {
-    fact=n%i;
-    if (fact==0)
+    if (n%i==0)
     {
         count++;
     }
